@@ -1,0 +1,20 @@
+# Ignore dataset CSV files (if large or sensitive)
+*.csv
+
+# Ignore model files
+*.pkl
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Specific sensitive files
+major/sns-alert-user_accessKeys.csv
+major/new links
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
